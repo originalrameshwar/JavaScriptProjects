@@ -1,0 +1,14 @@
+/* Add your other styles here */
+
+
+li {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+li.show {
+    opacity: 1;
+    /* transition: opacity 0.5s ease-in-out; */
+    transition: all 0.5s ease-in-out ;
+}
+
